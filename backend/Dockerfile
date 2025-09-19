@@ -1,0 +1,1 @@
+FROM openjdk:17-jdk-alpine\nVOLUME /tmp\nCOPY target/expense-tracker-backend-1.0.0.jar app.jar\nENTRYPOINT ["java","-jar","/app.jar"]\n

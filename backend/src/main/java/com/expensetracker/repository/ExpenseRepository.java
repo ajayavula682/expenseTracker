@@ -1,0 +1,1 @@
+package com.expensetracker.repository;\n\nimport com.expensetracker.model.Expense;\nimport com.expensetracker.model.User;\nimport org.springframework.data.jpa.repository.JpaRepository;\nimport java.util.List;\n\npublic interface ExpenseRepository extends JpaRepository<Expense, Long> {\n    List<Expense> findByUser(User user);\n}\n

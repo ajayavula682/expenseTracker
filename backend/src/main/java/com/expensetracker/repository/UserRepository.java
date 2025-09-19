@@ -1,0 +1,1 @@
+package com.expensetracker.repository;\n\nimport com.expensetracker.model.User;\nimport org.springframework.data.jpa.repository.JpaRepository;\n\npublic interface UserRepository extends JpaRepository<User, Long> {\n    User findByUsername(String username);\n}\n

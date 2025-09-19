@@ -1,0 +1,1 @@
+package com.expensetracker;\n\nimport org.springframework.boot.SpringApplication;\nimport org.springframework.boot.autoconfigure.SpringBootApplication;\n\n@SpringBootApplication\npublic class ExpenseTrackerApplication {\n    public static void main(String[] args) {\n        SpringApplication.run(ExpenseTrackerApplication.class, args);\n    }\n}\n
