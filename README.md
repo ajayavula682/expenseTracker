@@ -1,4 +1,3 @@
-# expenseTracker
 # Expense Tracker
 
 A full-stack expense tracker with React frontend and Spring Boot backend.
